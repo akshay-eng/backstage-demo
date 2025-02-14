@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jenkins-demo
+  annotations:
+    jenkins.io/job-full-name: "example-job"  # Replace with your actual Jenkins job name
+spec:
+  type: service
+  lifecycle: experimental
+  owner: dev-team
+
