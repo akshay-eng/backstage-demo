@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes-demo
+  annotations:
+    backstage.io/kubernetes-id: "my-k8s-app"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: dev-team
